@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#container{
+    height: 63vh;
+    width: 50vw;
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns:repeat(4,1f);
+    grid-template-rows: 50% ;
+    /* grid-template-rows: ; */
+    grid-template-areas: 
+    't1 i1 t2'
+    't1 i2 i2';
+    position: relative;
+    left: 50vh;
+    top: 20vh;
+    
+}
+
+
+#text1{
+    background-color:rgb(28, 48, 48);
+    grid-area: t1;
+    height: 100%;
+    width: 250px;
+    color: white;
+    position: relative;
+    
+    
+}
+#img1{
+ 
+ grid-area: i1;
+ 
+ 
+ 
+ 
+}
+#text2{
+background-color: gray;
+grid-area: t2;
+
+
+
+}
+#img2{
+   
+    grid-area: i2;
+   
+}
+.c1{
+    position: relative;
+    top:20px;
+}
+.card1{
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+button{
+    position: relative;
+    left: 25px;
+    width: 150px;
+    height: 35px;
+    background-color:rgb(28, 48, 48) ;
+    color: white;
+    border: 1px solid white;
+}
+
+a{
+    color: white;
+}
+.card2{
+    position: relative;
+    top: 50px;
+    
+}
